@@ -38,9 +38,11 @@ public class BoatTest {
         check("shorter boat is negative", checkresult2);
         check("boat lengths are equal", checkresult3);
 
-        System.out.println("Passed tests, " + getPassed() + " | Failed Tests," + getFailed());
+        System.out.println("Passed tests, " + getPassed() + " | Failed Tests, " + getFailed());
         System.out.println("result1= " + checkresult1);
         System.out.println("result2= " + checkresult2);
         System.out.println("result3= " + checkresult3);
+
+        
     }
 }
