@@ -1,16 +1,16 @@
 public class Boat implements Comparable<Boat> {
-    private String type;
+    private BoatTypes type;
     private int length;
     private int passengerCapacity;
 
-    public Boat(String type, int length, int passengerCapacity){
+    public Boat(BoatTypes type, int length, int passengerCapacity){
         this.type = type;
         this.length = length;
         this.passengerCapacity = passengerCapacity;
     }
 
     //get methods
-    public String getType(){ return this.type; }
+    public BoatTypes getType(){ return this.type; }
 
     public int getLength(){ return this.length; }
 
@@ -18,7 +18,7 @@ public class Boat implements Comparable<Boat> {
 
     //set methods
 
-    protected void setType(String type){ this.type = type; }
+    protected void setType(BoatTypes type){ this.type = type; }
 
     protected void setLength(int length){ this.length = length; }
 
